@@ -1,0 +1,7 @@
+env: test
+project: proj1
+customer: olivier2t
+
+# Code repo configuration
+code_git_public_repository: https://github.com/olivier2t/simple-counter-front.git
+code_git_branch: main
