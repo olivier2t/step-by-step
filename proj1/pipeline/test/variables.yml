@@ -1,7 +1,13 @@
 env: test
 project: proj1
 customer: olivier2t
-
-# Code repo configuration
-code_git_public_repository: https://github.com/olivier2t/simple-counter-front.git
+git_ssh_key: ((ssh_key.ssh_key))
+code_git_public_repository: 'https://github.com/olivier2t/simple-counter-front.git'
 code_git_branch: main
+git_repository: 'git@github.com:cycloid-community-catalog/docs-step-by-step-stack.git'
+stack_git_branch: stacks
+aws_access_key: ((aws_aws-olivier.access_key))
+aws_secret_key: ((aws_aws-olivier.secret_key))
+aws_default_region: eu-west-1
+terraform_storage_bucket_name: olivier2t-terraform-remote-state
+terraform_storage_bucket_path: proj1
