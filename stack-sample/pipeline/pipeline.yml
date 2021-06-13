@@ -38,7 +38,7 @@ resources:
   source:
     uri: ((git_repository))
     branch: ((stack_git_branch))
-    private_key: ((git_ssh_key))
+#    private_key: ((git_ssh_key))
     paths:
       - stack-sample/terraform/*
 
